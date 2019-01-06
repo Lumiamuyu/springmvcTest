@@ -27,7 +27,7 @@ public class WebTest {
     }
 
     @RequestMapping("/b.do")
-/*    public String b(@RequestParam("name") String name, @RequestParam("password")String password){
+/*    public String b(@RequestParam("name") String name, ("password")String password){
         System.out.println(name+" "+password);
         return "";*/
     public String b(Model model){
